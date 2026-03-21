@@ -58,6 +58,33 @@ h1,h2,h3{
   color:black;
 }
 
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #38bdf8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-top {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .outline{
   background:transparent;
   border:1px solid white;
@@ -77,6 +104,8 @@ h1,h2,h3{
   font-size:18px;
   line-height:1.6;
 }
+
+
 
 /* ===== SKILLS ===== */
 
