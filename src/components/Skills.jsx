@@ -1,41 +1,55 @@
-import React from "react";
+export default function Skills() {
+  return (
+    <section id="skills">
+        <h2>Skills</h2>
+        <div className="skills-grid">
 
-function Skills(){
+            <div className="skill-card">
+            <h3>Programming & Web</h3>
+            <p>HTML5, CSS3</p>
+            <p>JavaScript (ES6+), jQuery</p>
+            <p>PHP, C++</p>
+            <p>SQL, PL/SQL</p>
+            </div>
 
-const skills = [
+            <div className="skill-card">
+            <h3>Frontend & UI</h3>
+            <p>Bootstrap</p>
+            <p>React, React.js</p>
+            <p>Responsive Design</p>
+            <p>Web Layout Management</p>
+            </div>
 
-"HTML",
-"CSS",
-"Bootstrap",
-"JavaScript",
-"jQuery",
-"PHP",
-"MySQL",
-"SQL",
-"React JS"
+            <div className="skill-card">
+            <h3>Databases</h3>
+            <p>MySQL</p>
+            <p>PostgreSQL</p>
+            </div>
 
-];
+            <div className="skill-card">
+            <h3>API & Dev Tools</h3>
+            <p>Postman</p>
+            <p>REST API Integration</p>
+            <p>Web App Development</p>
+            </div>
 
-return(
+            <div className="skill-card">
+            <h3>Web Expertise</h3>
+            <p>Website Design</p>
+            <p>Website Management & Updates</p>
+            <p>Web Application Implementation</p>
+            <p>Web Development Technologies</p>
+            </div>
 
-<section className="skills">
+            <div className="skill-card">
+            <h3>Productivity Tools</h3>
+            <p>Git, GitHub</p>
+            <p>Google Docs, Google Drive</p>
+            <p>Microsoft Word, Microsoft Excel, PowerPoint</p>
+            </div>
 
-<h2>Technical Skills</h2>
-
-<div className="skills-grid">
-
-{skills.map((skill,index)=>(
-<div className="skill-card" key={index}>
-{skill}
-</div>
-))}
-
-</div>
-
-</section>
-
-)
-
+        </div>
+    </section>
+    
+  );
 }
-
-export default Skills

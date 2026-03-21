@@ -1,19 +1,15 @@
-import React from "react";
-import "../App.css";
-
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
-      <h2>Nisha.dev</h2>
+      <h2 className="logo">Nisha</h2>
 
-      <ul>
-        <li><a href="#home">Home</a></li>
+      <ul className="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   );
 }
-
-export default Navbar;
