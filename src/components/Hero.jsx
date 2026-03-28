@@ -11,10 +11,6 @@ export default function Hero() {
             I design and build scalable, high-performance web applications using PHP, React, JavaScript, and robust database architectures.
           </p>
         </div>
-
-        <div className="hero-right">
-          <img src="/profile.jpg" alt="Nisha Gupta" />
-        </div>
       </div>
 
       {/* Rest Content Below */}
@@ -30,7 +26,7 @@ export default function Hero() {
 
       <div className="hero-buttons">
         <a href="#projects" className="btn">View Projects</a>
-        <a href="/Nisha_Gupta_Resume.pdf" className="btn outline">Download CV</a>
+        <a href="#" className="btn outline">Download CV</a>
       </div>
 
     </section>
